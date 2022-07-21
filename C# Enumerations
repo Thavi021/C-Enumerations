@@ -1,0 +1,10 @@
+enum Language { PL, EN, DE };
+
+
+Language language = Language.PL;
+switch (language)
+{
+ case Language.PL: /* Polish version */ break;
+ case Language.DE: /* German version */ break;
+ default: /* English version */ break;
+}
